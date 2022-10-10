@@ -1,0 +1,124 @@
+body {
+    padding: 10px;
+    background-color: rgb(23, 31, 20);
+}
+
+.main-wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    height: 100%;
+    background-color: rgb(23, 31, 20);
+    color: rgb(23, 31, 20);
+    min-height: 100%;
+    margin:20px;
+    border: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 10px;
+    background-color: rgb(23, 31, 20);
+    color: rgb(23, 31, 20);
+    padding: 30px;
+    border: 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.fizzBuzz, .buzz, .fizz, .n {
+    display: flex;
+    flex-wrap: wrap;
+    // flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid;
+    &:hover {
+        box-shadow: 6px 6px 12px 9px #534e61;
+    }
+}
+
+button {
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    color: rgb(23, 31, 20);
+    font-weight: bold;
+    font-size: large;
+    border: 3px solid;
+}
+
+.fizzBuzz {
+    background-color: rgb(121, 71, 168);
+}
+
+.buzz {
+    background-color: rgb(70, 189, 163);
+}
+
+.fizz {
+    background-color: rgb(206, 145, 71);
+}
+
+.n {
+    background-color: rgb(143, 84, 84);
+}
+
+#btn_fizzbuzz {
+    background-color: rgb(121, 71, 168);
+    border-color: rgb(121, 71, 168);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(121, 71, 168);
+    }
+}
+
+#btn_buzz {
+    background-color: rgb(70, 189, 163);
+    border-color: rgb(70, 189, 163);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(70, 189, 163);
+    }
+}
+
+#btn_fizz {
+    background-color: rgb(206, 145, 71);
+    border-color: rgb(206, 145, 71);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(206, 145, 71);
+}
+}
+
+#btn_reset {
+    background-color: rgb(216, 52, 52);
+    border-color: rgb(216, 52, 52);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(216, 52, 52);
+    }
+}
+
+#btn_refresh {
+    background-color: rgb(12, 104, 20);
+    border-color: rgb(12, 104, 20);
+    &:hover {
+        background-color: rgb(23, 31, 20);
+        color: rgb(12, 104, 20);
+    }
+}
